@@ -14,11 +14,13 @@
 
 </head>
 <body>
+  <!--------navabar---------->
+
   <section class="header">
     <nav>
       <a href="index.html"><img src="images/logo.png" alt="" /></a>
-      <div class="nav-links">
-        <img class="fa" src="images/times-solid.svg"  />
+      <div class="nav-links" id="navLinks">
+        <img class="fa" onclick="hideMenu()" src="images/times-solid.svg"  />
         <ul>
           <li><a href="">HOME</a></li>
           <li><a href="">ABOUT</a></li>
@@ -27,7 +29,7 @@
           <li><a href="">CONTACT</a></li>
         </ul>
       </div>
-      <img class="fa" src="images/bars-solid.svg" /> 
+      <img class="fa" onclick="showMenu()" src="images/bars-solid.svg" /> 
       
     </nav>
    
@@ -38,6 +40,15 @@
    </div>
     
   </section>
+  
+   <!---------Course--------->
+  
+  <section class="course">
+    <h1>Courses we offer</h1>
+  </section>
+
+
+
     
   </header>
   <script src="main.js"></script>
